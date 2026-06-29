@@ -21,14 +21,17 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
     curl \
     ca-certificates \
+    zstd \
     && curl -fsSL https://ollama.com/install.sh | sh \
     && rm -rf /var/lib/apt/lists/*
 
 # Install python dependencies
 COPY pyproject.toml .
+COPY app/ ./app/
+COPY scripts/ ./scripts/
 RUN pip install --upgrade pip && pip install .
 
-# Copy application files
+# Copy remaining application files
 COPY . .
 COPY --from=frontend-build /frontend/dist ./frontend/dist
 
