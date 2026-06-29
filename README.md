@@ -247,7 +247,7 @@ The system was evaluated against a diverse test suite containing:
 
 1. **Clone the Repository:**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/DhanushKrishna07/enterprise_knowledge_assistant.git
    cd enterprise_knowledge_assistant
    ```
 
@@ -359,8 +359,7 @@ Distributed under the **MIT License**. See `LICENSE` for more information.
 
 ---
 
-## 📬 Contact
+## 📧 Contact
 
-* **Email:** [dhanushkrishnab@gmail.com](mailto:dhanushkrishnab@gmail.com)
-* **LinkedIn:** [dhanushkrishna15](https://www.linkedin.com/in/dhanushkrishna15)
-* **Project Repository:** [enterprise_knowledge_assistant](https://github.com/DhanushKrishna07/enterprise_knowledge_assistant)
+📨 **Email:** dhanushkrishnab@gmail.com  
+🔗 **LinkedIn:** https://www.linkedin.com/in/dhanushkrishna15
