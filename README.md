@@ -1,4 +1,4 @@
-# 🏢 Enterprise Knowledge Assistant (EKA) – Enterprise-Grade Local RAG System 📂
+# 🤖 Enterprise Knowledge Assistant (EKA) – Enterprise-Grade Local RAG System 🧠
 
 **Enterprise Knowledge Assistant (EKA)** is a production-oriented **Retrieval-Augmented Generation (RAG)** system designed to run entirely locally and offline for absolute data privacy and security. EKA allows employees to ask natural-language questions over a company's internal document library (PDFs, DOCX, TXT, MD, CSV) and receive accurate, context-grounded answers with page-level citations, explainability traces, and real-time streaming responses.
 
