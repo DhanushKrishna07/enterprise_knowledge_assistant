@@ -1,0 +1,243 @@
+# eval/golden_qa.yaml — 25 smoke-test questions for quick evaluation runs
+# Each item: id, question, expected_answer_facts, expected_sources, answerable, tags
+
+- id: hr_leave_001
+  question: "How many paid leaves do employees get annually?"
+  expected_answer_facts:
+    - "24 paid leaves"
+    - "annually"
+  expected_sources:
+    - document: "HR_Policy.md"
+  answerable: true
+  tags: [hr, direct_fact]
+
+- id: hr_leave_002
+  question: "How many sick leave days do employees receive per year?"
+  expected_answer_facts:
+    - "10 sick leave"
+  expected_sources:
+    - document: "HR_Policy.md"
+  answerable: true
+  tags: [hr, direct_fact]
+
+- id: hr_contractor_001
+  question: "Are contractors entitled to paid leave?"
+  expected_answer_facts:
+    - "not entitled"
+    - "contract"
+  expected_sources:
+    - document: "HR_Policy.md"
+  answerable: true
+  tags: [hr, contractors]
+
+- id: hr_remote_001
+  question: "How many days per week can employees work remotely?"
+  expected_answer_facts:
+    - "3 days"
+    - "per week"
+  expected_sources:
+    - document: "HR_Policy.md"
+  answerable: true
+  tags: [hr, remote-work]
+
+- id: hr_probation_001
+  question: "How long is the probationary period for new employees?"
+  expected_answer_facts:
+    - "90 days"
+    - "probationary"
+  expected_sources:
+    - document: "HR_Policy.md"
+  answerable: true
+  tags: [hr, onboarding]
+
+- id: product_refund_001
+  question: "What is the refund window for customers?"
+  expected_answer_facts:
+    - "30 days"
+    - "proof of purchase"
+  expected_sources:
+    - document: "Product_FAQ.md"
+  answerable: true
+  tags: [product, refunds]
+
+- id: product_sla_p1_001
+  question: "What is the SLA for Priority 1 incidents?"
+  expected_answer_facts:
+    - "1 hour"
+    - "initial response"
+  expected_sources:
+    - document: "Product_FAQ.md"
+  answerable: true
+  tags: [product, sla]
+
+- id: product_sla_p1_resolution
+  question: "What is the resolution target for Priority 1 incidents?"
+  expected_answer_facts:
+    - "4 hours"
+  expected_sources:
+    - document: "Product_FAQ.md"
+  answerable: true
+  tags: [product, sla]
+
+- id: product_support_fastest_001
+  question: "Which support tier has the fastest response time?"
+  expected_answer_facts:
+    - "Enterprise"
+    - "1 hour"
+  expected_sources:
+    - document: "Product_FAQ.md"
+  answerable: true
+  tags: [product, support-tiers, table]
+
+- id: product_digital_refund_001
+  question: "Can customers get a refund on digital downloads?"
+  expected_answer_facts:
+    - "non-refundable"
+    - "once accessed"
+  expected_sources:
+    - document: "Product_FAQ.md"
+  answerable: true
+  tags: [product, refunds]
+
+- id: security_password_001
+  question: "What is the minimum password length required?"
+  expected_answer_facts:
+    - "12 characters"
+  expected_sources:
+    - document: "Security_Compliance.md"
+  answerable: true
+  tags: [security, passwords]
+
+- id: security_mfa_001
+  question: "Is MFA mandatory for VPN connections?"
+  expected_answer_facts:
+    - "mandatory"
+    - "VPN"
+  expected_sources:
+    - document: "Security_Compliance.md"
+  answerable: true
+  tags: [security, mfa]
+
+- id: security_incident_001
+  question: "How long does the company have to notify regulators of a GDPR breach?"
+  expected_answer_facts:
+    - "72 hours"
+    - "GDPR"
+  expected_sources:
+    - document: "Security_Compliance.md"
+  answerable: true
+  tags: [security, gdpr, compliance]
+
+- id: security_laptop_lost_001
+  question: "What should an employee do if they lose a laptop containing customer data?"
+  expected_answer_facts:
+    - "Report to Security"
+    - "remote wipe"
+  expected_sources:
+    - document: "Security_Compliance.md"
+  answerable: true
+  tags: [security, incident-response]
+
+- id: security_retention_001
+  question: "How long is customer PII retained after contract end?"
+  expected_answer_facts:
+    - "7 years"
+  expected_sources:
+    - document: "Security_Compliance.md"
+  answerable: true
+  tags: [security, data-retention]
+
+- id: it_access_001
+  question: "How do I request production database access?"
+  expected_answer_facts:
+    - "IT Self-Service Portal"
+    - "manager approval"
+    - "CISO"
+  expected_sources:
+    - document: "IT_Process_Guide.md"
+  answerable: true
+  tags: [it, access-request]
+
+- id: it_laptop_cycle_001
+  question: "How often are company laptops replaced?"
+  expected_answer_facts:
+    - "4-year"
+    - "refresh cycle"
+  expected_sources:
+    - document: "IT_Process_Guide.md"
+  answerable: true
+  tags: [it, laptop]
+
+- id: it_offboarding_001
+  question: "How quickly is system access revoked when an employee is offboarded?"
+  expected_answer_facts:
+    - "4 hours"
+    - "HR notification"
+  expected_sources:
+    - document: "IT_Process_Guide.md"
+  answerable: true
+  tags: [it, offboarding]
+
+- id: it_db_approvals_001
+  question: "What approval levels are required for production database access?"
+  expected_answer_facts:
+    - "Direct Manager"
+    - "Department Head"
+    - "DBA team"
+    - "CISO"
+  expected_sources:
+    - document: "IT_Process_Guide.md"
+  answerable: true
+  tags: [it, access-request, table]
+
+- id: multi_doc_laptop_data_001
+  question: "What should an employee do if they lose a laptop containing customer data?"
+  expected_answer_facts:
+    - "report to security"
+    - "remote wipe"
+    - "data breach"
+  expected_sources:
+    - document: "Security_Compliance.md"
+    - document: "IT_Process_Guide.md"
+  answerable: true
+  tags: [multi-document, security, it]
+
+- id: hr_parental_001
+  question: "How many weeks of parental leave does the primary caregiver receive?"
+  expected_answer_facts:
+    - "16 weeks"
+    - "paid"
+  expected_sources:
+    - document: "HR_Policy.md"
+  answerable: true
+  tags: [hr, parental-leave]
+
+- id: product_data_delete_001
+  question: "How long does it take to process a customer data deletion request?"
+  expected_answer_facts:
+    - "30 days"
+  expected_sources:
+    - document: "Product_FAQ.md"
+  answerable: true
+  tags: [product, privacy, gdpr]
+
+- id: no_answer_001
+  question: "What is the CEO's personal phone number?"
+  expected_answer_facts: []
+  expected_sources: []
+  answerable: false
+  tags: [no-answer, hallucination-test]
+
+- id: no_answer_002
+  question: "What is the bonus payout for next year?"
+  expected_answer_facts: []
+  expected_sources: []
+  answerable: false
+  tags: [no-answer, hallucination-test]
+
+- id: no_answer_003
+  question: "What is the company's stock price today?"
+  expected_answer_facts: []
+  expected_sources: []
+  answerable: false
+  tags: [no-answer, hallucination-test]

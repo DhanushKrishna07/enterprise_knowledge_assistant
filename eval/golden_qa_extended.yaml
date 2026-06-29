@@ -1,0 +1,1116 @@
+- id: hr_ext_001
+  question: How many paid leaves do employees get annually?
+  expected_answer_facts:
+  - 24 paid leaves
+  - annually
+  expected_sources:
+  - document: HR_Policy.md
+  answerable: true
+  tags:
+  - hr
+  - extended
+- id: hr_ext_002
+  question: What is the annual paid leave allowance?
+  expected_answer_facts:
+  - 24 paid leaves
+  expected_sources:
+  - document: HR_Policy.md
+  answerable: true
+  tags:
+  - hr
+  - extended
+- id: hr_ext_003
+  question: How much vacation time is given to staff each year?
+  expected_answer_facts:
+  - 24 paid leaves
+  expected_sources:
+  - document: HR_Policy.md
+  answerable: true
+  tags:
+  - hr
+  - extended
+- id: hr_ext_004
+  question: How many sick leave days do employees receive per year?
+  expected_answer_facts:
+  - 10 sick leave
+  expected_sources:
+  - document: HR_Policy.md
+  answerable: true
+  tags:
+  - hr
+  - extended
+- id: hr_ext_005
+  question: What is the sick leave policy for employees?
+  expected_answer_facts:
+  - 10 sick leave
+  expected_sources:
+  - document: HR_Policy.md
+  answerable: true
+  tags:
+  - hr
+  - extended
+- id: hr_ext_006
+  question: Are contractors entitled to paid leave?
+  expected_answer_facts:
+  - not entitled
+  - contract
+  expected_sources:
+  - document: HR_Policy.md
+  answerable: true
+  tags:
+  - hr
+  - extended
+- id: hr_ext_007
+  question: Can contract workers request paid vacation?
+  expected_answer_facts:
+  - not entitled
+  expected_sources:
+  - document: HR_Policy.md
+  answerable: true
+  tags:
+  - hr
+  - extended
+- id: hr_ext_008
+  question: How many days per week can employees work remotely?
+  expected_answer_facts:
+  - 3 days
+  - per week
+  expected_sources:
+  - document: HR_Policy.md
+  answerable: true
+  tags:
+  - hr
+  - extended
+- id: hr_ext_009
+  question: What is the remote work policy regarding weekly days?
+  expected_answer_facts:
+  - 3 days
+  expected_sources:
+  - document: HR_Policy.md
+  answerable: true
+  tags:
+  - hr
+  - extended
+- id: hr_ext_010
+  question: How long is the probationary period for new employees?
+  expected_answer_facts:
+  - 90 days
+  - probationary
+  expected_sources:
+  - document: HR_Policy.md
+  answerable: true
+  tags:
+  - hr
+  - extended
+- id: hr_ext_011
+  question: What is the probation length for new hires?
+  expected_answer_facts:
+  - 90 days
+  expected_sources:
+  - document: HR_Policy.md
+  answerable: true
+  tags:
+  - hr
+  - extended
+- id: hr_ext_012
+  question: How many weeks of parental leave does the primary caregiver receive?
+  expected_answer_facts:
+  - 16 weeks
+  - paid
+  expected_sources:
+  - document: HR_Policy.md
+  answerable: true
+  tags:
+  - hr
+  - extended
+- id: hr_ext_013
+  question: What is the parental leave duration for primary caregivers?
+  expected_answer_facts:
+  - 16 weeks
+  expected_sources:
+  - document: HR_Policy.md
+  answerable: true
+  tags:
+  - hr
+  - extended
+- id: hr_ext_014
+  question: How many days of bereavement leave are granted for immediate family?
+  expected_answer_facts:
+  - 3 days
+  - bereavement
+  expected_sources:
+  - document: HR_Policy.md
+  answerable: true
+  tags:
+  - hr
+  - extended
+- id: hr_ext_015
+  question: Is bereavement leave paid or unpaid?
+  expected_answer_facts:
+  - paid
+  - bereavement
+  expected_sources:
+  - document: HR_Policy.md
+  answerable: true
+  tags:
+  - hr
+  - extended
+- id: hr_ext_016
+  question: What is the maximum carry-over of paid leaves to the next year?
+  expected_answer_facts:
+  - 5 days
+  - carry-over
+  expected_sources:
+  - document: HR_Policy.md
+  answerable: true
+  tags:
+  - hr
+  - extended
+- id: hr_ext_017
+  question: Are employees allowed to roll over their vacation days?
+  expected_answer_facts:
+  - 5 days
+  - carry-over
+  expected_sources:
+  - document: HR_Policy.md
+  answerable: true
+  tags:
+  - hr
+  - extended
+- id: hr_ext_018
+  question: Does the company provide jury duty leave?
+  expected_answer_facts:
+  - jury duty
+  - paid
+  expected_sources:
+  - document: HR_Policy.md
+  answerable: true
+  tags:
+  - hr
+  - extended
+- id: hr_ext_019
+  question: What is the policy on unpaid personal leave?
+  expected_answer_facts:
+  - unpaid personal leave
+  - approval
+  expected_sources:
+  - document: HR_Policy.md
+  answerable: true
+  tags:
+  - hr
+  - extended
+- id: hr_ext_020
+  question: Can I take unpaid leave without my manager's approval?
+  expected_answer_facts:
+  - manager approval
+  - unpaid
+  expected_sources:
+  - document: HR_Policy.md
+  answerable: true
+  tags:
+  - hr
+  - extended
+- id: hr_ext_021
+  question: Who is eligible for the Employee Assistance Program?
+  expected_answer_facts:
+  - all employees
+  - EAP
+  expected_sources:
+  - document: HR_Policy.md
+  answerable: true
+  tags:
+  - hr
+  - extended
+- id: hr_ext_022
+  question: What services are covered under the EAP?
+  expected_answer_facts:
+  - counseling
+  - mental health
+  expected_sources:
+  - document: HR_Policy.md
+  answerable: true
+  tags:
+  - hr
+  - extended
+- id: hr_ext_023
+  question: When are public holidays observed by the company?
+  expected_answer_facts:
+  - company calendar
+  - holidays
+  expected_sources:
+  - document: HR_Policy.md
+  answerable: true
+  tags:
+  - hr
+  - extended
+- id: hr_ext_024
+  question: Do contractors get paid for public holidays?
+  expected_answer_facts:
+  - not paid
+  - contractors
+  expected_sources:
+  - document: HR_Policy.md
+  answerable: true
+  tags:
+  - hr
+  - extended
+- id: hr_ext_025
+  question: What happens to unused leaves upon resignation?
+  expected_answer_facts:
+  - paid out
+  - resignation
+  expected_sources:
+  - document: HR_Policy.md
+  answerable: true
+  tags:
+  - hr
+  - extended
+- id: hr_ext_026
+  question: Am I compensated for unused leaves when leaving the company?
+  expected_answer_facts:
+  - paid out
+  - accrued
+  expected_sources:
+  - document: HR_Policy.md
+  answerable: true
+  tags:
+  - hr
+  - extended
+- id: hr_ext_027
+  question: What is the notice period required for taking vacation?
+  expected_answer_facts:
+  - 2 weeks
+  - notice
+  expected_sources:
+  - document: HR_Policy.md
+  answerable: true
+  tags:
+  - hr
+  - extended
+- id: prod_ext_001
+  question: What is the refund window for customers?
+  expected_answer_facts:
+  - 30 days
+  - proof of purchase
+  expected_sources:
+  - document: Product_FAQ.md
+  answerable: true
+  tags:
+  - product
+  - extended
+- id: prod_ext_002
+  question: How long do I have to request a refund?
+  expected_answer_facts:
+  - 30 days
+  expected_sources:
+  - document: Product_FAQ.md
+  answerable: true
+  tags:
+  - product
+  - extended
+- id: prod_ext_003
+  question: Can customers get a refund on digital downloads?
+  expected_answer_facts:
+  - non-refundable
+  - once accessed
+  expected_sources:
+  - document: Product_FAQ.md
+  answerable: true
+  tags:
+  - product
+  - extended
+- id: prod_ext_004
+  question: Is it possible to return digital items?
+  expected_answer_facts:
+  - non-refundable
+  expected_sources:
+  - document: Product_FAQ.md
+  answerable: true
+  tags:
+  - product
+  - extended
+- id: prod_ext_005
+  question: What is the SLA for Priority 1 incidents?
+  expected_answer_facts:
+  - 1 hour
+  - initial response
+  expected_sources:
+  - document: Product_FAQ.md
+  answerable: true
+  tags:
+  - product
+  - extended
+- id: prod_ext_006
+  question: How fast is the response for a P1 incident?
+  expected_answer_facts:
+  - 1 hour
+  expected_sources:
+  - document: Product_FAQ.md
+  answerable: true
+  tags:
+  - product
+  - extended
+- id: prod_ext_007
+  question: What is the resolution target for Priority 1 incidents?
+  expected_answer_facts:
+  - 4 hours
+  expected_sources:
+  - document: Product_FAQ.md
+  answerable: true
+  tags:
+  - product
+  - extended
+- id: prod_ext_008
+  question: How long does it take to resolve a P1 ticket?
+  expected_answer_facts:
+  - 4 hours
+  expected_sources:
+  - document: Product_FAQ.md
+  answerable: true
+  tags:
+  - product
+  - extended
+- id: prod_ext_009
+  question: Which support tier has the fastest response time?
+  expected_answer_facts:
+  - Enterprise
+  - 1 hour
+  expected_sources:
+  - document: Product_FAQ.md
+  answerable: true
+  tags:
+  - product
+  - extended
+- id: prod_ext_010
+  question: What is the response time for the Enterprise support tier?
+  expected_answer_facts:
+  - 1 hour
+  expected_sources:
+  - document: Product_FAQ.md
+  answerable: true
+  tags:
+  - product
+  - extended
+- id: prod_ext_011
+  question: How long does it take to process a customer data deletion request?
+  expected_answer_facts:
+  - 30 days
+  expected_sources:
+  - document: Product_FAQ.md
+  answerable: true
+  tags:
+  - product
+  - extended
+- id: prod_ext_012
+  question: What is the timeline for deleting user data under GDPR?
+  expected_answer_facts:
+  - 30 days
+  expected_sources:
+  - document: Product_FAQ.md
+  answerable: true
+  tags:
+  - product
+  - extended
+- id: prod_ext_013
+  question: Do you offer a service level agreement for uptime?
+  expected_answer_facts:
+  - 99.9%
+  - uptime
+  expected_sources:
+  - document: Product_FAQ.md
+  answerable: true
+  tags:
+  - product
+  - extended
+- id: prod_ext_014
+  question: What is the monthly uptime commitment?
+  expected_answer_facts:
+  - 99.9%
+  expected_sources:
+  - document: Product_FAQ.md
+  answerable: true
+  tags:
+  - product
+  - extended
+- id: prod_ext_015
+  question: What happens if the uptime SLA is breached?
+  expected_answer_facts:
+  - service credits
+  expected_sources:
+  - document: Product_FAQ.md
+  answerable: true
+  tags:
+  - product
+  - extended
+- id: prod_ext_016
+  question: How do I claim service credits for downtime?
+  expected_answer_facts:
+  - submit ticket
+  - 30 days
+  expected_sources:
+  - document: Product_FAQ.md
+  answerable: true
+  tags:
+  - product
+  - extended
+- id: prod_ext_017
+  question: What support channels are available for Basic tier?
+  expected_answer_facts:
+  - email only
+  expected_sources:
+  - document: Product_FAQ.md
+  answerable: true
+  tags:
+  - product
+  - extended
+- id: prod_ext_018
+  question: Can Basic support users call phone support?
+  expected_answer_facts:
+  - no phone support
+  - email only
+  expected_sources:
+  - document: Product_FAQ.md
+  answerable: true
+  tags:
+  - product
+  - extended
+- id: prod_ext_019
+  question: What is the response SLA for Priority 2 tickets?
+  expected_answer_facts:
+  - 4 hours
+  expected_sources:
+  - document: Product_FAQ.md
+  answerable: true
+  tags:
+  - product
+  - extended
+- id: prod_ext_020
+  question: What is the response SLA for Priority 3 tickets?
+  expected_answer_facts:
+  - 12 hours
+  expected_sources:
+  - document: Product_FAQ.md
+  answerable: true
+  tags:
+  - product
+  - extended
+- id: prod_ext_021
+  question: What are the support hours for Standard tier?
+  expected_answer_facts:
+  - 9 AM to 5 PM
+  - business days
+  expected_sources:
+  - document: Product_FAQ.md
+  answerable: true
+  tags:
+  - product
+  - extended
+- id: prod_ext_022
+  question: Does Standard support tier include weekend coverage?
+  expected_answer_facts:
+  - business days only
+  expected_sources:
+  - document: Product_FAQ.md
+  answerable: true
+  tags:
+  - product
+  - extended
+- id: prod_ext_023
+  question: How is the Enterprise tier support coverage structured?
+  expected_answer_facts:
+  - 24/7
+  - coverage
+  expected_sources:
+  - document: Product_FAQ.md
+  answerable: true
+  tags:
+  - product
+  - extended
+- id: prod_ext_024
+  question: Do you support single sign-on (SSO)?
+  expected_answer_facts:
+  - SAML
+  - OIDC
+  - SSO
+  expected_sources:
+  - document: Product_FAQ.md
+  answerable: true
+  tags:
+  - product
+  - extended
+- id: prod_ext_025
+  question: Is SSO available on the Basic plan?
+  expected_answer_facts:
+  - Enterprise plan only
+  expected_sources:
+  - document: Product_FAQ.md
+  answerable: true
+  tags:
+  - product
+  - extended
+- id: prod_ext_026
+  question: Can I export my project data?
+  expected_answer_facts:
+  - JSON
+  - CSV
+  - export
+  expected_sources:
+  - document: Product_FAQ.md
+  answerable: true
+  tags:
+  - product
+  - extended
+- id: prod_ext_027
+  question: What formats are supported for data export?
+  expected_answer_facts:
+  - JSON
+  - CSV
+  expected_sources:
+  - document: Product_FAQ.md
+  answerable: true
+  tags:
+  - product
+  - extended
+- id: sec_ext_001
+  question: What is the minimum password length required?
+  expected_answer_facts:
+  - 12 characters
+  expected_sources:
+  - document: Security_Compliance.md
+  answerable: true
+  tags:
+  - security
+  - extended
+- id: sec_ext_002
+  question: What are the password complexity requirements?
+  expected_answer_facts:
+  - 12 characters
+  - uppercase
+  - number
+  - special
+  expected_sources:
+  - document: Security_Compliance.md
+  answerable: true
+  tags:
+  - security
+  - extended
+- id: sec_ext_003
+  question: Is MFA mandatory for VPN connections?
+  expected_answer_facts:
+  - mandatory
+  - VPN
+  expected_sources:
+  - document: Security_Compliance.md
+  answerable: true
+  tags:
+  - security
+  - extended
+- id: sec_ext_004
+  question: Do I need multi-factor authentication for remote access?
+  expected_answer_facts:
+  - mandatory
+  - VPN
+  - MFA
+  expected_sources:
+  - document: Security_Compliance.md
+  answerable: true
+  tags:
+  - security
+  - extended
+- id: sec_ext_005
+  question: How long does the company have to notify regulators of a GDPR breach?
+  expected_answer_facts:
+  - 72 hours
+  - GDPR
+  expected_sources:
+  - document: Security_Compliance.md
+  answerable: true
+  tags:
+  - security
+  - extended
+- id: sec_ext_006
+  question: What is the GDPR data breach notification timeline?
+  expected_answer_facts:
+  - 72 hours
+  expected_sources:
+  - document: Security_Compliance.md
+  answerable: true
+  tags:
+  - security
+  - extended
+- id: sec_ext_007
+  question: What should an employee do if they lose a laptop containing customer data?
+  expected_answer_facts:
+  - Report to Security
+  - remote wipe
+  expected_sources:
+  - document: Security_Compliance.md
+  answerable: true
+  tags:
+  - security
+  - extended
+- id: sec_ext_008
+  question: Who do I contact if my laptop is stolen?
+  expected_answer_facts:
+  - Security Incident Response
+  - report
+  expected_sources:
+  - document: Security_Compliance.md
+  answerable: true
+  tags:
+  - security
+  - extended
+- id: sec_ext_009
+  question: How long is customer PII retained after contract end?
+  expected_answer_facts:
+  - 7 years
+  expected_sources:
+  - document: Security_Compliance.md
+  answerable: true
+  tags:
+  - security
+  - extended
+- id: sec_ext_010
+  question: What is the retention period for personal data?
+  expected_answer_facts:
+  - 7 years
+  - PII
+  expected_sources:
+  - document: Security_Compliance.md
+  answerable: true
+  tags:
+  - security
+  - extended
+- id: sec_ext_011
+  question: How often must employees complete security awareness training?
+  expected_answer_facts:
+  - annually
+  - training
+  expected_sources:
+  - document: Security_Compliance.md
+  answerable: true
+  tags:
+  - security
+  - extended
+- id: sec_ext_012
+  question: Is cybersecurity training mandatory every year?
+  expected_answer_facts:
+  - mandatory
+  - annually
+  expected_sources:
+  - document: Security_Compliance.md
+  answerable: true
+  tags:
+  - security
+  - extended
+- id: sec_ext_013
+  question: What classification is used for internal draft documents?
+  expected_answer_facts:
+  - Confidential
+  - classification
+  expected_sources:
+  - document: Security_Compliance.md
+  answerable: true
+  tags:
+  - security
+  - extended
+- id: sec_ext_014
+  question: How should Restricted data be handled?
+  expected_answer_facts:
+  - encryption
+  - restricted access
+  expected_sources:
+  - document: Security_Compliance.md
+  answerable: true
+  tags:
+  - security
+  - extended
+- id: sec_ext_015
+  question: Is it permitted to use personal USB drives on company laptops?
+  expected_answer_facts:
+  - prohibited
+  - USB
+  expected_sources:
+  - document: Security_Compliance.md
+  answerable: true
+  tags:
+  - security
+  - extended
+- id: sec_ext_016
+  question: What is the policy on external storage devices?
+  expected_answer_facts:
+  - prohibited
+  - company-issued only
+  expected_sources:
+  - document: Security_Compliance.md
+  answerable: true
+  tags:
+  - security
+  - extended
+- id: sec_ext_017
+  question: How do we report suspicious emails or phishing?
+  expected_answer_facts:
+  - phishing report button
+  - forward to security
+  expected_sources:
+  - document: Security_Compliance.md
+  answerable: true
+  tags:
+  - security
+  - extended
+- id: sec_ext_018
+  question: What is the protocol for suspected email phishing?
+  expected_answer_facts:
+  - report
+  - phishing
+  expected_sources:
+  - document: Security_Compliance.md
+  answerable: true
+  tags:
+  - security
+  - extended
+- id: sec_ext_019
+  question: Are automatic updates enabled on work computers?
+  expected_answer_facts:
+  - mandatory
+  - auto-update
+  expected_sources:
+  - document: Security_Compliance.md
+  answerable: true
+  tags:
+  - security
+  - extended
+- id: sec_ext_020
+  question: Can I disable antivirus software on my laptop?
+  expected_answer_facts:
+  - prohibited
+  - antivirus
+  expected_sources:
+  - document: Security_Compliance.md
+  answerable: true
+  tags:
+  - security
+  - extended
+- id: sec_ext_021
+  question: What is the clean desk policy?
+  expected_answer_facts:
+  - lock screens
+  - secure papers
+  expected_sources:
+  - document: Security_Compliance.md
+  answerable: true
+  tags:
+  - security
+  - extended
+- id: sec_ext_022
+  question: Do I need to lock my computer when walking away?
+  expected_answer_facts:
+  - lock screens
+  - clean desk
+  expected_sources:
+  - document: Security_Compliance.md
+  answerable: true
+  tags:
+  - security
+  - extended
+- id: sec_ext_023
+  question: How are access keys and credentials to cloud environments stored?
+  expected_answer_facts:
+  - Secret Manager
+  - vault
+  expected_sources:
+  - document: Security_Compliance.md
+  answerable: true
+  tags:
+  - security
+  - extended
+- id: sec_ext_024
+  question: Is it okay to hardcode credentials in code repositories?
+  expected_answer_facts:
+  - prohibited
+  - hardcode
+  expected_sources:
+  - document: Security_Compliance.md
+  answerable: true
+  tags:
+  - security
+  - extended
+- id: sec_ext_025
+  question: What is the policy for reporting security incidents?
+  expected_answer_facts:
+  - immediate reporting
+  - within 24 hours
+  expected_sources:
+  - document: Security_Compliance.md
+  answerable: true
+  tags:
+  - security
+  - extended
+- id: sec_ext_026
+  question: Who investigates suspected security breaches?
+  expected_answer_facts:
+  - Security Operations Center
+  - SOC
+  expected_sources:
+  - document: Security_Compliance.md
+  answerable: true
+  tags:
+  - security
+  - extended
+- id: it_ext_001
+  question: How do I request production database access?
+  expected_answer_facts:
+  - IT Self-Service Portal
+  - manager approval
+  - CISO
+  expected_sources:
+  - document: IT_Process_Guide.md
+  answerable: true
+  tags:
+  - it
+  - extended
+- id: it_ext_002
+  question: What is the procedure for getting database access?
+  expected_answer_facts:
+  - IT Self-Service Portal
+  - approval
+  expected_sources:
+  - document: IT_Process_Guide.md
+  answerable: true
+  tags:
+  - it
+  - extended
+- id: it_ext_003
+  question: How often are company laptops replaced?
+  expected_answer_facts:
+  - 4-year
+  - refresh cycle
+  expected_sources:
+  - document: IT_Process_Guide.md
+  answerable: true
+  tags:
+  - it
+  - extended
+- id: it_ext_004
+  question: When am I eligible for a laptop upgrade?
+  expected_answer_facts:
+  - 4-year
+  expected_sources:
+  - document: IT_Process_Guide.md
+  answerable: true
+  tags:
+  - it
+  - extended
+- id: it_ext_005
+  question: How quickly is system access revoked when an employee is offboarded?
+  expected_answer_facts:
+  - 4 hours
+  - HR notification
+  expected_sources:
+  - document: IT_Process_Guide.md
+  answerable: true
+  tags:
+  - it
+  - extended
+- id: it_ext_006
+  question: What is the offboarding SLA for account termination?
+  expected_answer_facts:
+  - 4 hours
+  - revoked
+  expected_sources:
+  - document: IT_Process_Guide.md
+  answerable: true
+  tags:
+  - it
+  - extended
+- id: it_ext_007
+  question: What approval levels are required for production database access?
+  expected_answer_facts:
+  - Direct Manager
+  - Department Head
+  - DBA team
+  - CISO
+  expected_sources:
+  - document: IT_Process_Guide.md
+  answerable: true
+  tags:
+  - it
+  - extended
+- id: it_ext_008
+  question: Who needs to sign off on a production database access request?
+  expected_answer_facts:
+  - CISO
+  - Manager
+  - DBA
+  expected_sources:
+  - document: IT_Process_Guide.md
+  answerable: true
+  tags:
+  - it
+  - extended
+- id: it_ext_009
+  question: How do I request a new software license?
+  expected_answer_facts:
+  - IT catalog
+  - ticket
+  expected_sources:
+  - document: IT_Process_Guide.md
+  answerable: true
+  tags:
+  - it
+  - extended
+- id: it_ext_010
+  question: Can I install unauthorized software on my machine?
+  expected_answer_facts:
+  - prohibited
+  - whitelisted only
+  expected_sources:
+  - document: IT_Process_Guide.md
+  answerable: true
+  tags:
+  - it
+  - extended
+- id: it_ext_011
+  question: What is the process for submitting an IT support ticket?
+  expected_answer_facts:
+  - IT Portal
+  - email support
+  expected_sources:
+  - document: IT_Process_Guide.md
+  answerable: true
+  tags:
+  - it
+  - extended
+- id: it_ext_012
+  question: Where do I go to report a broken monitor?
+  expected_answer_facts:
+  - IT Self-Service
+  - ticket
+  expected_sources:
+  - document: IT_Process_Guide.md
+  answerable: true
+  tags:
+  - it
+  - extended
+- id: it_ext_013
+  question: How are guest Wi-Fi accounts requested?
+  expected_answer_facts:
+  - sponsor approval
+  - IT desk
+  expected_sources:
+  - document: IT_Process_Guide.md
+  answerable: true
+  tags:
+  - it
+  - extended
+- id: it_ext_014
+  question: What is the standard configuration time for new hire laptops?
+  expected_answer_facts:
+  - 5 business days
+  expected_sources:
+  - document: IT_Process_Guide.md
+  answerable: true
+  tags:
+  - it
+  - extended
+- id: it_ext_015
+  question: Who schedules the offboarding equipment return?
+  expected_answer_facts:
+  - IT Operations
+  - HR checklist
+  expected_sources:
+  - document: IT_Process_Guide.md
+  answerable: true
+  tags:
+  - it
+  - extended
+- id: unans_ext_001
+  question: What is the CEO's personal cell phone number?
+  expected_answer_facts: []
+  expected_sources: []
+  answerable: false
+  tags:
+  - no-answer
+  - hallucination-test
+  - extended
+- id: unans_ext_002
+  question: How much does the company pay for its office leases?
+  expected_answer_facts: []
+  expected_sources: []
+  answerable: false
+  tags:
+  - no-answer
+  - hallucination-test
+  - extended
+- id: unans_ext_003
+  question: What are the specific dates of the next company retreat?
+  expected_answer_facts: []
+  expected_sources: []
+  answerable: false
+  tags:
+  - no-answer
+  - hallucination-test
+  - extended
+- id: unans_ext_004
+  question: What is the current stock price of the company?
+  expected_answer_facts: []
+  expected_sources: []
+  answerable: false
+  tags:
+  - no-answer
+  - hallucination-test
+  - extended
+- id: unans_ext_005
+  question: Which external consulting firm did we hire for the 2025 audit?
+  expected_answer_facts: []
+  expected_sources: []
+  answerable: false
+  tags:
+  - no-answer
+  - hallucination-test
+  - extended
+- id: unans_ext_006
+  question: What is the password to the company's main safe?
+  expected_answer_facts: []
+  expected_sources: []
+  answerable: false
+  tags:
+  - no-answer
+  - hallucination-test
+  - extended
+- id: unans_ext_007
+  question: How many coffee machines are there in the HQ office?
+  expected_answer_facts: []
+  expected_sources: []
+  answerable: false
+  tags:
+  - no-answer
+  - hallucination-test
+  - extended
+- id: unans_ext_008
+  question: What is the formula of the proprietary algorithm we use?
+  expected_answer_facts: []
+  expected_sources: []
+  answerable: false
+  tags:
+  - no-answer
+  - hallucination-test
+  - extended
+- id: unans_ext_009
+  question: What is the name of the CISO's favorite dog?
+  expected_answer_facts: []
+  expected_sources: []
+  answerable: false
+  tags:
+  - no-answer
+  - hallucination-test
+  - extended
+- id: unans_ext_010
+  question: When will the company announce its next merger?
+  expected_answer_facts: []
+  expected_sources: []
+  answerable: false
+  tags:
+  - no-answer
+  - hallucination-test
+  - extended

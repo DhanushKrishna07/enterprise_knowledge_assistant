@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "backend": ".venv\\Scripts\\uvicorn app.api.main:app --host 0.0.0.0 --port 8000 --reload",
+    "frontend": "cd frontend && npm run dev",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\""
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.3"
+  }
+}
